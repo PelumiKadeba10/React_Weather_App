@@ -45,9 +45,9 @@ function App() {
   return (
     <>
     <div className="flex justify-center items-center h-screen bg-slate-100">
-      <div className="bg-green-100 w-88 rounded-md shadow-xl py-10 px-10 text-center">
-        <p className="font-semibold text-2xl">Weather App</p>
-        <p className="pt-3">Enter the Location</p>
+      <div className="bg-[#c7f3e4] w-80 rounded-xl shadow-xl py-10 px-10 text-center">
+        <p className="font-semibold text-2xl">Weather Teller</p>
+        <p className="pt-3">Enter your Location</p>
 
         <input
           placeholder="Enter Location"
