@@ -47,11 +47,13 @@ function App() {
     <div className="flex justify-center items-center h-screen bg-slate-100">
       <div className="bg-[#c7f3e4] w-80 rounded-xl shadow-xl py-10 px-10 text-center">
         <p className="font-semibold text-2xl">Weather Teller</p>
+        <p></p>
+        <p className="pt-3 ">Click the clear button after each Search</p>
         <p className="pt-3">Enter your Location</p>
 
         <input
           placeholder="Enter Location"
-          className="text-center mt-4 w-full py-1.5 rounded-md bg-white"
+          className="text-center mt-1 w-full py-1.5 rounded-md bg-white"
           type="text"
           name= "location"
           onChange={(e) => setLocation(e.target.value)}
