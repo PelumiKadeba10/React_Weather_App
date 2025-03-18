@@ -1,7 +1,7 @@
 export default function Footer(){
     return(
-        <div className="flex justify-end">
-            <p className="pr-4 pb-2">Pelumi project 2025</p>
+        <div className=" bg-slate-100 flex justify-end">
+            <p className="font-semibold pr-4 pb-2">Pelumi @ projects 2025</p>
         </div>
     );
 }
