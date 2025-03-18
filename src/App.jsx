@@ -5,7 +5,7 @@ function App() {
   const [location, setLocation] = useState("");
   const [result, setResult] = useState(null);
   const key = import.meta.env.VITE_API_KEY;
-  const url = `http://api.weatherapi.com/v1/current.json?key=${key}&q=${location}&aqi=no`;
+  const url = `https://api.weatherapi.com/v1/current.json?key=${key}&q=${location}&aqi=no`;
 
 
   const fetchWeather = async () => {
